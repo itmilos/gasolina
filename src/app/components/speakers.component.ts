@@ -9,13 +9,13 @@ import { speakersResource } from '../resources/speakers.resource';
   standalone: true,
   imports: [NgFor, RouterLink],
   template: `
-    <h2 id="speakers" class="section-title">Team</h2>
+    <h2 id="team-members" class="section-title">Team</h2>
 
     <div class="speaker-list">
       <a
         class="speaker"
         *ngFor="let speaker of speakers; trackBy: trackById"
-        routerLink="/speakers/{{ speaker.id }}"
+        routerLink="/team-members/{{ speaker.id }}"
       >
         <img
           class="speaker-photo"
