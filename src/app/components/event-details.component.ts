@@ -26,7 +26,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         align-items: center;
         justify-content: center;
         gap: 2rem;
-        padding: 2rem 1rem;
+        padding: 4rem 1rem;
         border-bottom: 1px solid var(--border-color);
       }
 

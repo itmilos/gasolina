@@ -33,7 +33,7 @@ import { RouterLink } from '@angular/router';
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 2rem 1rem;
+        padding: 4rem 1rem;
         border-bottom: 1px solid var(--border-color);
         background-image: url(banner-bg.svg);
         background-repeat: no-repeat;
@@ -91,7 +91,7 @@ import { RouterLink } from '@angular/router';
 
       @media only screen and (min-width: 850px) {
         :host {
-          padding: 4rem 0;
+          padding: 6rem 0;
         }
 
         .banner-logo {
