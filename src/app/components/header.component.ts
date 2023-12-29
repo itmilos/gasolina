@@ -20,12 +20,12 @@ import { filter, fromEvent, map, pairwise, tap } from 'rxjs';
     <nav [class]="isNavVisible() ? 'visible-nav' : 'hidden-nav'">
       <a class="home-link" routerLink="/">
         <img
-          alt="Angular Belgrade"
+          alt="Gasolina"
           src="/gasolina-logo.svg"
           fetchPriority="high"
           loading="eager"
-          height="40"
-          width="34"
+          height="82"
+          width="162"
         />
       </a>
 
