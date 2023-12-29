@@ -126,7 +126,7 @@ import { filter, fromEvent, map, pairwise, tap } from 'rxjs';
         gap: 2rem;
         position: absolute;
         right: 0;
-        top: 4rem;
+        top: 6rem;
         width: 100%;
         background-color: var(--background-color);
         padding: 1rem 0 2rem 0;
