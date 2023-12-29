@@ -85,6 +85,7 @@ import { RouterLink } from '@angular/router';
 
       .tickets-button:hover {
         color: inherit;
+        background: red;
         opacity: 0.9;
       }
 

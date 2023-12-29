@@ -1,22 +1,42 @@
 :root {
-  --angular-gradient: linear-gradient(
+   --angular-gradient: linear-gradient(
     to right,
-    #ef4444,
-    #f34054,
-    #f43e64,
-    #f43e74,
-    #f24184,
-    #f03f92,
-    #ed3fa0,
-    #e742ae,
-    #df42bf,
-    #d245d2,
-    #c14ce4,
-    #a855f7
+    #009246, /* Green */
+    #0B8048, /* Darker Green */
+    #0F9152, /* Even Darker Green */
+    #136F5C, /* Even Darker Green */
+    #17826E, /* Even Darker Green */
+    #1B956A, /* Even Darker Green */
+    #1FAB78, /* Even Darker Green */
+    #23C085, /* Even Darker Green */
+    #27D593, /* Even Darker Green */
+    #2BEBA0, /* Even Darker Green */
+    #F1F2F1, /* White */
+    #E8E8E8, /* Light Gray */
+    #DFDFDF, /* Even Lighter Gray */
+    #D6D6D6, /* Even Lighter Gray */
+    #CDCDCD, /* Even Lighter Gray */
+    #C4C4C4, /* Even Lighter Gray */
+    #BBBBBB, /* Even Lighter Gray */
+    #B2B2B2, /* Even Lighter Gray */
+    #A9A9A9, /* Even Lighter Gray */
+    #A0A0A0, /* Even Lighter Gray */
+    #CE2B37, /* Red */
+    #C42733, /* Darker Red */
+    #BA232F, /* Even Darker Red */
+    #B01F2B, /* Even Darker Red */
+    #A61B27, /* Even Darker Red */
+    #9C1723, /* Even Darker Red */
+    #92131F, /* Even Darker Red */
+    #880F1B, /* Even Darker Red */
+    #7E0B17, /* Even Darker Red */
+    #740713, /* Even Darker Red */
+    #6A030F  /* Even Darker Red */
   );
-  --red-color: #ef4444;
-  --accent-color: #ec4899;
-  --purple-color: #a855f7;
+
+  --red-color: #CE2B37;
+  --accent-color: #252a27;
+  --purple-color: #F1F2F1;
   --background-color: #0f0f11;
   --border-color: #232125;
 
@@ -53,7 +73,7 @@ a:hover,
   text-align: center;
   font-size: 2rem;
   font-weight: 600;
-  margin: 2rem;
+  margin: 4rem 2rem 2rem 2rem;
 }
 
 .section-subtitle {

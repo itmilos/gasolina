@@ -166,10 +166,13 @@ import { filter, fromEvent, map, pairwise, tap } from 'rxjs';
         background: var(--angular-gradient);
         font-weight: 600;
         text-decoration: none;
+        box-shadow: 0 0 14px 0 var(--accent-color);
+        color: var(--accent-color);
       }
 
       .tickets-button:hover {
         color: inherit;
+        background: red;
         opacity: 0.9;
       }
 
