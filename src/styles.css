@@ -1,0 +1,78 @@
+:root {
+  --angular-gradient: linear-gradient(
+    to right,
+    #ef4444,
+    #f34054,
+    #f43e64,
+    #f43e74,
+    #f24184,
+    #f03f92,
+    #ed3fa0,
+    #e742ae,
+    #df42bf,
+    #d245d2,
+    #c14ce4,
+    #a855f7
+  );
+  --red-color: #ef4444;
+  --accent-color: #ec4899;
+  --purple-color: #a855f7;
+  --background-color: #0f0f11;
+  --border-color: #232125;
+
+  font-family: Montserrat, sans-serif;
+
+  color-scheme: dark;
+  color: white;
+  background-color: var(--background-color);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+a {
+  color: white;
+}
+
+a:hover,
+.active-link {
+  color: var(--accent-color);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 2rem;
+}
+
+.section-subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 1.25rem 0;
+}
+
+a > img {
+  transition: transform 0.6s;
+}
+
+a:hover > img {
+  transform: scale(1.1);
+}
+
+.highlighted-text {
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: var(--angular-gradient);
+  font-weight: 600;
+}
