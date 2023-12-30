@@ -196,5 +196,5 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 })
 export class TicketsComponent {
   readonly buyTicketsLink =
-    'https://checkout.stripe.com/c/pay/cs_live_a1FfZOUu2SRhHUeBHlePDLXLOhX4UYg1k5jwUUNpcy7MLjajwalwl7Bt3t#fidkdWxOYHwnPyd1blppbHNgWjA0SlE9PX1OR0lGbz1GTm42XTNCN1x9UEwyYnY9Y19SZGhgb1RGdWpHSmpQQTBfbH1gVWwzTHVidEMzNUNqQlNxZkwxbUNJbWhgb2gwbGBKcF9PMG9jTlVHNTVSS2BzfDRNNicpJ3VpbGtuQH11anZgYUxhJz8nZEBQM3RuYkpWNERMNGdsY1xfJ3gl';
+    'https://buy.stripe.com/28o5mg9mqenug6c144';
 }
