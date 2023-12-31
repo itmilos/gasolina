@@ -12,13 +12,13 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
         <div class="ticket-info">
           <h3 class="ticket-name">Pre Sale</h3>
-          <p class="ticket-price">19,99 $</p>
+          <p class="ticket-price">19.99 $</p>
         </div>
 
         <hr />
 
         <ul>
-          <li>Metal Sheet Desig</li>
+          <li>Metal Sheet Design</li>
           <li>Front: Stunning car silhouette outline.</li>
           <li>Back: Table with car model details - year, engine specs, acceleration, speed, and weight.</li>
           <li>Strong paper with a car-specific design.</li>
