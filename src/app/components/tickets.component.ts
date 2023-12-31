@@ -196,5 +196,5 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 })
 export class TicketsComponent {
   readonly buyTicketsLink =
-    'https://buy.stripe.com/28o5mg9mqenug6c144';
+    'https://buy.stripe.com/aEU6qkgOS1AI1bifYZ';
 }
